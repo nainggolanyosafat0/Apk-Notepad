@@ -50,6 +50,27 @@ Berikut adalah rancangan alur sistem aplikasi **Notepad Saya** menggunakan diagr
 
 Diagram ini menggambarkan interaksi antara pengguna (User) dengan fitur-fitur yang tersedia di dalam sistem.
 
+```mermaid
+flowchart TD
+    Start([Mulai]) --> OpenApp[Buka Aplikasi]
+    OpenApp --> SelectFolder[Pilih Folder di Sidebar]
+    SelectFolder --> ClickAdd[Klik Tombol '+ Buat Catatan']
+    ClickAdd --> ShowModal[Tampilkan Modal Form]
+    ShowModal --> InputData[Input Judul & Isi Catatan]
+    InputData --> SaveCheck{Klik Simpan?}
+    
+    SaveCheck -- Ya --> Validate[Validasi Data]
+    Validate -- Valid --> SaveDB[(Simpan ke Database)]
+    SaveDB --> UpdateUI[Tampilkan Catatan Baru]
+    UpdateUI --> End([Selesai])
+    
+    Validate -- Invalid --> ShowError[Tampilkan Error]
+    ShowError --> InputData
+    
+    SaveCheck -- Batal --> CloseModal[Tutup Modal]
+    CloseModal --> End
+```
+
 ### 2. Activity Diagram
 
 Diagram berikut menjelaskan alur aktivitas pengguna dalam melakukan dua tugas utama: **Membuat Catatan Baru** dan **Mengelola Folder (Rename/Delete)**.
