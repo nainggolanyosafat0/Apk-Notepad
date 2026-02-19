@@ -51,35 +51,40 @@ Berikut adalah rancangan alur sistem aplikasi **Notepad Saya** menggunakan diagr
 Diagram ini menggambarkan interaksi antara pengguna (User) dengan fitur-fitur yang tersedia di dalam sistem.
 
 ```mermaid
-usecaseDiagram
-    actor User as "Pengguna"
-    
-    package "Aplikasi Notepad Saya" {
-        usecase "Kelola Folder" as UC1
-        usecase "Kelola Catatan" as UC2
-        
-        usecase "Buat Folder" as UC1_1
-        usecase "Rename Folder" as UC1_2
-        usecase "Hapus Folder" as UC1_3
-        
-        usecase "Buat Catatan" as UC2_1
-        usecase "Edit Catatan" as UC2_2
-        usecase "Hapus Catatan" as UC2_3
-        usecase "Lihat Catatan" as UC2_4
-    }
+flowchart LR
+    %% Aktor
+    User((Pengguna))
 
+    %% Sistem
+    subgraph Aplikasi Notepad Saya
+        direction TB
+        UC1([Kelola Folder])
+        UC2([Kelola Catatan])
+
+        UC1_1([Buat Folder])
+        UC1_2([Rename Folder])
+        UC1_3([Hapus Folder])
+
+        UC2_1([Buat Catatan])
+        UC2_2([Edit Catatan])
+        UC2_3([Hapus Catatan])
+        UC2_4([Lihat Catatan])
+    end
+
+    %% Relasi Aktor ke Use Case Utama
     User --> UC1
     User --> UC2
-    
-    UC1 ..> UC1_1 : include
-    UC1 ..> UC1_2 : include
-    UC1 ..> UC1_3 : include
-    
-    UC2 ..> UC2_1 : include
-    UC2 ..> UC2_2 : include
-    UC2 ..> UC2_3 : include
-    UC2 ..> UC2_4 : include
-```
+
+    %% Relasi Include (Kelola Folder)
+    UC1 -. include .-> UC1_1
+    UC1 -. include .-> UC1_2
+    UC1 -. include .-> UC1_3
+
+    %% Relasi Include (Kelola Catatan)
+    UC2 -. include .-> UC2_1
+    UC2 -. include .-> UC2_2
+    UC2 -. include .-> UC2_3
+    UC2 -. include .-> UC2_4
 
 ### 2. Activity Diagram
 
