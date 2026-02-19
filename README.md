@@ -4,7 +4,6 @@
 
 Dikembangkan menggunakan framework **Laravel 12**, aplikasi ini menonjolkan performa yang cepat dengan kombinasi *Server-Side Rendering* (Blade) dan interaktivitas modern menggunakan JavaScript murni.
 
-![Notepad App Preview](https://via.placeholder.com/800x400?text=Notepad+Saya+App+Preview)
 
 ---
 
