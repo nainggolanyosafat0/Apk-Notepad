@@ -8,13 +8,13 @@ Berikut adalah tampilan antarmuka **Notepad Saya** yang modern dan responsif:
 
 ### 🌐 Tampilan Web
 
-| Halaman Utama (Kosong) | Modal Folder Baru |
+| Halaman Utama  | Folder Baru |
 | :---: | :---: |
-| ![Halaman Utama - Kosong](assets/mockups/web_empty.png) | ![Modal Folder Baru](assets/mockups/web_folder_modal.png) |
+| ![Halaman Utama ](assets/mockups/web_empty.png) | ![Folder Baru](assets/mockups/web_folder_modal.png) |
 
-| Modal Catatan Baru | Daftar Catatan |
+| Catatan Baru | Daftar Catatan |
 | :---: | :---: |
-| ![Modal Catatan Baru](assets/mockups/web_note_modal.png) | ![Daftar Catatan](assets/mockups/web_populated.png) |
+| ![Catatan Baru](assets/mockups/web_note_modal.png) | ![Daftar Catatan](assets/mockups/web_populated.png) |
 
 ---
 
