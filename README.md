@@ -4,25 +4,41 @@
 
 ## 🖼️ Preview Aplikasi
 
-| Web Preview | Mobile Preview |
-| :---: | :---: |
-| ![Web Mockup](/C:/Users/Yosapat Nainggolan/.gemini/antigravity/brain/9a298b87-62c7-49c5-8bca-2ac08af9ea6a/web_mockup_preview.png) | ![Mobile Mockup](/C:/Users/Yosapat Nainggolan/.gemini/antigravity/brain/9a298b87-62c7-49c5-8bca-2ac08af9ea6a/mobile_mockup_preview.png) |
+Berikut adalah tampilan antarmuka **Notepad Saya** yang modern dan responsif:
+
+### 🌐 Tampilan Web
+````carousel
+![Halaman Utama - Kosong](assets/mockups/web_empty.png)
+Halaman awal saat belum ada folder yang dipilih.
+<!-- slide -->
+![Modal Folder Baru](assets/mockups/web_folder_modal.png)
+Antarmuka untuk membuat folder baru dengan desain premium.
+<!-- slide -->
+![Modal Catatan Baru](assets/mockups/web_note_modal.png)
+Form pembuatan catatan yang bersih dan intuitif.
+<!-- slide -->
+![Daftar Catatan](assets/mockups/web_populated.png)
+Tampilan koleksi catatan dalam bentuk kartu berwarna.
+````
 
 ---
 
 ## ✨ Fitur Utama
 
 ### 1. 📂 Manajemen Folder
-- **Buat Folder Baru**: Organisasikan catatan Anda ke dalam kategori yang berbeda.
-- **Rename Folder**: Klik kanan pada folder untuk mengubah namanya.
-- **Hapus Folder**: Hapus folder yang tidak lagi dibutuhkan (beserta seluruh catatan di dalamnya).
-- **Context Menu**: Akses cepat fitur folder dengan klik kanan.
+- **Buat Folder Baru**: Organisasikan catatan Anda ke dalam kategori yang berbeda dengan modal yang elegan.
+- **Rename Folder**: Klik kanan pada folder untuk mengubah namanya secara instan.
+- **Hapus Folder**: Hapus folder beserta isinya dengan konfirmasi keamanan.
 
 ### 2. 📝 Manajemen Catatan
-- **Buat Catatan**: Tambahkan catatan baru dengan judul dan isi yang dapat disesuaikan.
-- **Edit Catatan**: Ubah konten catatan kapan saja melalui tombol edit (✎).
-- **Hapus Catatan**: Hapus catatan yang sudah tidak relevan.
-- **Empty State**: Tampilan informatif saat folder masih kosong.
+- **Buat Catatan**: Tambahkan catatan dengan judul dan isi menggunakan modal yang fokus.
+- **Edit & Hapus**: Tombol aksi yang cepat dan intuitif di setiap kartu catatan.
+- **Visual Berwarna**: Kartu catatan otomatis memiliki warna yang berbeda untuk estetika yang menarik.
+
+### 3. 📱 Aplikasi Mobile (Android)
+- **Sinkronisasi Real-time**: Data yang Anda buat di web akan muncul di aplikasi mobile secara otomatis.
+- **Navigasi Mudah**: Pindah antar folder dan lihat catatan dengan transisi yang halus.
+- **Native Experience**: Dibangun secara native untuk performa terbaik di perangkat Android.
 
 ### 3. 🎨 Antarmuka Modern
 - **Desain Responsif**: Tampilan yang menyesuaikan dengan ukuran layar.
