@@ -1,10 +1,12 @@
-# 📝 Notepad Saya
+# 📝 Notepad Saya (Web & Mobile)
 
-**Notepad Saya** adalah aplikasi manajemen catatan berbasis web yang dirancang untuk membantu pengguna mengorganisir ide dan informasi dengan mudah. Aplikasi ini menawarkan antarmuka yang bersih, modern, dan responsif, memungkinkan pengguna untuk membuat folder, menyimpan catatan, serta mengedit dan menghapusnya sesuai kebutuhan.
+**Notepad Saya** adalah ekosistem manajemen catatan lintas platform (Web & Mobile) yang dirancang untuk membantu pengguna mengorganisir ide dan informasi dengan mudah. 
 
-Dikembangkan menggunakan framework **Laravel 12**, aplikasi ini menonjolkan performa yang cepat dengan kombinasi *Server-Side Rendering* (Blade) dan interaktivitas modern menggunakan JavaScript murni.
+## 🖼️ Preview Aplikasi
 
-![Notepad App Preview](https://via.placeholder.com/800x400?text=Notepad+Saya+App+Preview)
+| Web Preview | Mobile Preview |
+| :---: | :---: |
+| ![Web Mockup](/C:/Users/Yosapat Nainggolan/.gemini/antigravity/brain/9a298b87-62c7-49c5-8bca-2ac08af9ea6a/web_mockup_preview.png) | ![Mobile Mockup](/C:/Users/Yosapat Nainggolan/.gemini/antigravity/brain/9a298b87-62c7-49c5-8bca-2ac08af9ea6a/mobile_mockup_preview.png) |
 
 ---
 
@@ -52,34 +54,33 @@ Berikut adalah rancangan alur sistem aplikasi **Notepad Saya** menggunakan diagr
 Diagram ini menggambarkan interaksi antara pengguna (User) dengan fitur-fitur yang tersedia di dalam sistem.
 
 ```mermaid
-usecaseDiagram
-    actor User as "Pengguna"
-    
-    package "Aplikasi Notepad Saya" {
-        usecase "Kelola Folder" as UC1
-        usecase "Kelola Catatan" as UC2
-        
-        usecase "Buat Folder" as UC1_1
-        usecase "Rename Folder" as UC1_2
-        usecase "Hapus Folder" as UC1_3
-        
-        usecase "Buat Catatan" as UC2_1
-        usecase "Edit Catatan" as UC2_2
-        usecase "Hapus Catatan" as UC2_3
-        usecase "Lihat Catatan" as UC2_4
-    }
+flowchart LR
+    %% Aktor
+    User((Pengguna))
 
-    User --> UC1
-    User --> UC2
-    
-    UC1 ..> UC1_1 : include
-    UC1 ..> UC1_2 : include
-    UC1 ..> UC1_3 : include
-    
-    UC2 ..> UC2_1 : include
-    UC2 ..> UC2_2 : include
-    UC2 ..> UC2_3 : include
-    UC2 ..> UC2_4 : include
+    %% Sistem
+    subgraph Aplikasi["📦 Aplikasi Notepad Saya"]
+        direction TB
+        subgraph Folder["📂 Kelola Folder"]
+            UC1_1([Buat Folder])
+            UC1_2([Rename Folder])
+            UC1_3([Hapus Folder])
+        end
+        subgraph Catatan["📝 Kelola Catatan"]
+            UC2_1([Buat Catatan])
+            UC2_2([Edit Catatan])
+            UC2_3([Hapus Catatan])
+            UC2_4([Lihat Catatan])
+        end
+    end
+
+    User --> UC1_1
+    User --> UC1_2
+    User --> UC1_3
+    User --> UC2_1
+    User --> UC2_2
+    User --> UC2_3
+    User --> UC2_4
 ```
 
 ### 2. Activity Diagram
@@ -153,8 +154,9 @@ flowchart TD
     cd notepad-saya
     ```
 
-2.  **Install Dependencies**:
+2.  **Install Dependencies (Web)**:
     ```bash
+    cd web
     composer install
     ```
 
