@@ -2,17 +2,15 @@
 
 **Notepad Saya Mobile** adalah aplikasi Android native yang merupakan bagian dari ekosistem Notepad Saya. Aplikasi ini memungkinkan Anda untuk mengakses dan mengelola catatan Anda langsung dari perangkat Android dengan antarmuka yang bersih dan responsif.
 
-## 🖼️ Tampilan Aplikasi
+### 🖼️ Tampilan Aplikasi
 
 Berikut adalah pratinjau antarmuka aplikasi mobile:
 
-````carousel
 ![Daftar Folder](assets/mockups/mobile_main.png)
-Tampilan utama yang menampilkan semua folder Anda.
-<!-- slide -->
+*Tampilan utama yang menampilkan semua folder Anda.*
+
 ![Daftar Catatan](assets/mockups/mobile_notes.png)
-Tampilan detail catatan di dalam folder yang dipilih.
-````
+*Tampilan detail catatan di dalam folder yang dipilih.*
 
 > [!TIP]
 > Simpan screenshot Anda di folder `mobile/assets/mockups/` dengan nama file di atas agar muncul di halaman ini.

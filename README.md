@@ -7,19 +7,14 @@
 Berikut adalah tampilan antarmuka **Notepad Saya** yang modern dan responsif:
 
 ### 🌐 Tampilan Web
-````carousel
-![Halaman Utama - Kosong](assets/mockups/web_empty.png)
-Halaman awal saat belum ada folder yang dipilih.
-<!-- slide -->
-![Modal Folder Baru](assets/mockups/web_folder_modal.png)
-Antarmuka untuk membuat folder baru dengan desain premium.
-<!-- slide -->
-![Modal Catatan Baru](assets/mockups/web_note_modal.png)
-Form pembuatan catatan yang bersih dan intuitif.
-<!-- slide -->
-![Daftar Catatan](assets/mockups/web_populated.png)
-Tampilan koleksi catatan dalam bentuk kartu berwarna.
-````
+
+| Halaman Utama (Kosong) | Modal Folder Baru |
+| :---: | :---: |
+| ![Halaman Utama - Kosong](assets/mockups/web_empty.png) | ![Modal Folder Baru](assets/mockups/web_folder_modal.png) |
+
+| Modal Catatan Baru | Daftar Catatan |
+| :---: | :---: |
+| ![Modal Catatan Baru](assets/mockups/web_note_modal.png) | ![Daftar Catatan](assets/mockups/web_populated.png) |
 
 ---
 
@@ -166,7 +161,7 @@ flowchart TD
 
 1.  **Clone Repository**:
     ```bash
-    git clone https://github.com/username/notepad-saya.git
+    git clone https://github.com/nainggolanyosafat0/Apk-Notepad
     cd notepad-saya
     ```
 
@@ -201,4 +196,4 @@ flowchart TD
     Akses di `http://127.0.0.1:8000`.
 
 ---
-Dibuat dengan ❤️ oleh [Nama Pengembang].
+Dibuat dengan [Yosapat Nainggolan].
