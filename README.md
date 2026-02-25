@@ -16,6 +16,12 @@ Berikut adalah tampilan antarmuka **Notepad Saya** yang modern dan responsif:
 | :---: | :---: |
 | ![Catatan Baru](assets/mockups/web_note_modal.png) | ![Daftar Catatan](assets/mockups/web_populated.png) |
 
+### 📱 Tampilan Mobile
+
+| Beranda Mobile | Daftar Catatan Mobile |
+| :---: | :---: |
+| ![Main Mobile](assets/mockups/mobile_main.png) | ![Notes Mobile](assets/mockups/mobile_notes.png) |
+
 ---
 
 ## ✨ Fitur Utama
