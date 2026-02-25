@@ -6,13 +6,13 @@
 
 Berikut adalah pratinjau antarmuka aplikasi mobile:
 
-![Daftar Folder](assets/mockups/mobile_main.png)
+![Daftar Folder](../assets/mockups/mobile_main.png)
 *Tampilan utama yang menampilkan semua folder Anda.*
 
-![Tambah Folder](assets/mockups/mobile_add_folder.png)
+![Tambah Folder](../assets/mockups/mobile_add_folder.png)
 *Modal untuk membuat folder baru.*
 
-![Tambah Catatan](assets/mockups/mobile_add_note.png)
+![Tambah Catatan](../assets/mockups/mobile_add_note.png)
 *Tampilan untuk membuat catatan baru di dalam folder.*
 
 > [!TIP]
